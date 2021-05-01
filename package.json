@@ -1,0 +1,22 @@
+{
+  "name": "mapify",
+  "version": "1.0.0",
+  "description": "This is a package used to add flexible maps to your applications with minimal efforts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rakesh-201/IGT-project.git"
+  },
+  "keywords": [
+    "Map"
+  ],
+  "author": "Rakesh B Rajpurohit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rakesh-201/IGT-project/issues"
+  },
+  "homepage": "https://github.com/rakesh-201/IGT-project#readme"
+}

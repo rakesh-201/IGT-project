@@ -2,7 +2,7 @@
 
 ## Description
 
-
+This is a package used to add flexible maps to your applications with minimal efforts.
 
 ## Installation
 
@@ -94,4 +94,5 @@ mapify(options)
 ## Options
 
 The mapify function takes in an object which has two properties:
-1. `searchOnly`(boolean): If set to `true` then map having searching ability will be displayed. If set to `false` then the map will be able to navigate
+1. `searchOnly`(boolean): If set to `true`, then map having searching ability (only) will be displayed. On the other hand, if set to `false` then the map will have all the features needed to navigate the user to it's desired destination.
+2. `accessToken`(string): A string you get after signing up to mapbox.
