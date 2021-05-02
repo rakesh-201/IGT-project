@@ -1,4 +1,4 @@
-# MAPIFY - map it!
+# MAPIFIE - map it!
 
 ## Description
 
@@ -8,11 +8,11 @@ This is a package used to add flexible maps to your applications with minimal ef
 
 Open up your terminal and run the following command:
 
-`npm i mapify`
+`npm i mapifie`
 
 For `yarn` users
 
-`yarn add mapify`
+`yarn add mapifie`
 
 ## Getting Started
 
@@ -47,7 +47,7 @@ See the example given below for understanding the usage.
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MAPIFY</title>
+    <title>MAPIFie</title>
 
     <script src="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js"></script>
     <link href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css" rel="stylesheet" />
@@ -81,18 +81,18 @@ See the example given below for understanding the usage.
 ### index.js
 
 ```
-import {mapify} from 'mapify'
+import {mapifie} from 'mapifie'
 
 const options = {
     searchOnly: false,
     accessToken: <YOUR_ACCESS_TOKEN>
 }
 
-mapify(options)
+mapifie(options)
 ```
 
 ## Options
 
-The mapify function takes in an object which has two properties:
+The mapifie function takes in an object which has two properties:
 1. `searchOnly`(boolean): If set to `true`, then map having searching ability (only) will be displayed. On the other hand, if set to `false` then the map will have all the features needed to navigate the user to it's desired destination.
 2. `accessToken`(string): A string you get after signing up to mapbox.

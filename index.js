@@ -1,4 +1,4 @@
-const mapify = (options) => {
+const mapifie = (options) => {
 
     var href = "https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.css";
 
@@ -56,4 +56,4 @@ const mapify = (options) => {
     }
 }
 
-module.exports.mapify = mapify;
+module.exports.mapifie = mapifie;
